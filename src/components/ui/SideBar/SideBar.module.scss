@@ -1,0 +1,16 @@
+.SideBar{
+    transition: all 0.5s;
+    left: 0;
+    position: fixed;
+    margin-left: -250px;
+    width: 250px;
+    height: 100vh;
+    background: #d9d9d9;
+    margin-top: 100px;
+    overflow: auto;
+    z-index: 20;
+}
+.SideBar.active{
+    transition: all 0.5s;
+    margin-left: 0;
+}
